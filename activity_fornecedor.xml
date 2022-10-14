@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaCadastro">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textSize="40dp"
+            android:text="Cadastro de Fornecedores"
+            android:gravity="center"
+            android:textColor="#6200ff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Usuario @login, seja bem vindo ao Formulário"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/textMat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matricula:" />
+        <EditText
+            android:id="@+id/editMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"/>
+
+
+        <TextView
+            android:id="@+id/textNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:" />
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:id="@+id/textCid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cidade:" />
+        <EditText
+            android:id="@+id/editCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+
+        <TextView
+            android:id="@+id/textEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado:" />
+        <EditText
+            android:id="@+id/editEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+
+        <Button
+            android:id="@+id/btnGravar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gravar"
+            android:onClick="gravar"/>
+
+    </LinearLayout>
